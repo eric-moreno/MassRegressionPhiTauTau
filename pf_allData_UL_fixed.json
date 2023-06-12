@@ -1,0 +1,116 @@
+{
+    "base": "root://cmseos.fnal.gov//store/user/keiran/htautau_training",
+    "samples": [
+	{
+	    "name": "QCD",
+            "samples": ["QCD_Pt_170to300_TuneCP5_13TeV_pythia8-UL","QCD_Pt_300to470_TuneCP5_13TeV_pythia8-UL","QCD_Pt_470to600_TuneCP5_13TeV_pythia8-UL","QCD_Pt_600to800_TuneCP5_13TeV_pythia8-UL","QCD_Pt_800to1000_TuneCP5_13TeV_pythia8-UL","QCD_Pt_1000to1400_TuneCP5_13TeV_pythia8-UL"]       },
+	{
+            "name": "TTbar",
+	    "samples": ["TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8-UL"]
+	},
+	{
+            "name": "JetHT-2017B-lepveto",
+            "samples": ["Run2017B-09Aug2019_UL2017-lepveto"]
+	},
+	{
+            "name": "JetHT-2017C-lepveto",
+            "samples": ["Run2017C-09Aug2019_UL2017-lepveto"]
+	},
+	{
+            "name": "JetHT-2017D-lepveto",
+            "samples": ["Run2017D-09Aug2019_UL2017-lepveto"]
+	},
+	{
+            "name": "JetHT-2017E-lepveto",
+            "samples": ["Run2017E-09Aug2019_UL2017-lepveto"]
+	},
+	{
+            "name": "JetHT-2017F-lepveto",
+            "samples": ["Run2017F-09Aug2019_UL2017-lepveto"]
+	},
+	{
+            "name": "JetHT-2017B",
+            "samples": ["Run2017B-09Aug2019_UL2017"]
+	},
+	{
+            "name": "JetHT-2017C",
+            "samples": ["Run2017C-09Aug2019_UL2017"]
+	},
+	{
+            "name": "JetHT-2017D",
+            "samples": ["Run2017D-09Aug2019_UL2017"]
+	},
+	{
+            "name": "JetHT-2017E",
+            "samples": ["Run2017E-09Aug2019_UL2017"]
+	},
+	{
+            "name": "JetHT-2017F",
+            "samples": ["Run2017F-09Aug2019_UL2017"]
+	},
+	{
+            "name": "JetHT",
+            "samples": ["Run2017B-09Aug2019_UL2017","Run2017C-09Aug2019_UL2017","Run2017D-09Aug2019_UL2017","Run2017E-09Aug2019_UL2017","Run2017F-09Aug2019_UL2017"]
+	},
+	{
+            "name": "DYJetsToLL",
+            "samples": ["DYJetsToLL_Pt-250To400_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL","DYJetsToLL_Pt-400To650_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL","DYJetsToLL_Pt-650ToInf_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL"]
+	},
+	{
+            "name": "ee-DYJetsToLL",
+            "samples": ["DYJetsToLL_Pt-250To400_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-elel","DYJetsToLL_Pt-400To650_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-elel","DYJetsToLL_Pt-650ToInf_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-elel"]
+	},
+	{
+            "name": "mm-DYJetsToLL",
+            "samples": ["DYJetsToLL_Pt-250To400_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-mumu","DYJetsToLL_Pt-400To650_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-mumu","DYJetsToLL_Pt-650ToInf_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-mumu"]
+	},
+	{
+            "name": "tt-DYJetsToLL",
+            "samples": ["DYJetsToLL_Pt-400To650_MatchEWPDG20_TuneCP5_13TeV-amcatnloFXFX-pythia8-UL-tt"]
+	},
+	{
+            "name": "WJetsToLNu",
+	        "samples": ["WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8-UL","WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8-UL","WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8-UL","WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8-UL","WJetsToLNu_HT-1200To2500_TuneCP5_13TeV-madgraphMLM-pythia8-UL","WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8-UL"]
+	},
+	{
+            "name": "GluGluHToTauTau_user",
+	        "samples": ["GluGluHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8-UL-tt"]
+	},
+      {
+            "name": "OtherHToTauTau_user",
+	        "samples": ["VBFHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8-UL-tt","WminusHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8-UL-tt","WplusHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8-UL-tt","ZHToTauTau_M125_CP5_13TeV-powheg-pythia8_ext1-UL-tt","ttHToTauTau_M125_TuneCP5_13TeV-powheg-pythia8-UL-tt"]
+	},
+	{
+            "name": "FlatTauTau_user",
+	        "samples": ["FlatTauTau_13TeV_user-UL"]
+	}
+    ],
+    "featuresold": [
+            "PF_pt","PF_eta","PF_phi","PF_q","PF_dz","PF_dzerr","PF_dxy","PF_dxyerr","PF_pup","PF_pupnolep","PF_id","PF_trk","PF_vtx"
+            ],
+    "features": [
+                "PF_pt","PF_eta","PF_phi","PF_q","PF_dz","PF_dzerr","PF_d0","PF_d0err","PF_pup","PF_pupnolep","PF_id","PF_trk","PF_vtx"
+                ],
+    "altfeatures": [
+            "sv_dlen", "sv_dlenSig", "sv_dxy", "sv_dxySig", "sv_chi2", "sv_pAngle", "sv_x", "sv_y", "sv_z", "sv_pt", "sv_mass", "sv_eta", "sv_phi"
+            ],
+    "taufeatures": [
+            "tau_charge", "tau_chargedIso", "tau_eta", "tau_leadTkDeltaEta", "tau_leadTkDeltaPhi", "tau_leadTkPtOverTauPt", "tau_mass", "tau_neutralIso", "tau_phi", "tau_photonsOutsideSignalCone", "tau_pt", "tau_rawAntiEle2018", "tau_rawIso", "tau_rawIsodR03"
+            ],
+    "elecfeatures": [
+            "electron_charge", "electron_convVeto", "electron_deltaEtaSC", "electron_dr03EcalRecHitSumEt", "electron_dr03HcalDepth1TowerSumEt", "electron_dr03TkSumPt", "electron_dxy", "electron_dxyErr", "electron_dz", "electron_dzErr", "electron_eInvMinusPInv", "electron_eta", "electron_hoe", "electron_ip3d", "electron_lostHits", "electron_phi", "electron_pt", "electron_r9", "electron_sieie", "electron_sip3d"
+            ],
+    "muonfeatures": [
+            "muon_charge", "muon_dxy", "muon_dxyErr", "muon_dz", "muon_dzErr", "muon_eta", "muon_ip3d", "muon_nStations", "muon_nTrackerLayers", "muon_pfRelIso03_all", "muon_pfRelIso03_chg", "muon_phi", "muon_pt", "muon_segmentComp", "muon_sip3d", "muon_tkRelIso"
+            ],
+    "weight": ["fj_pt", "fj_msd"],
+    "cut": "fj_pt>200 && fj_msd>10",
+    "ss_vars": ["fj_genMass","fj_genPt","fj_genEta","fj_genPhi",
+    "fj_n2b1","fj_had1Decay","fj_had2Decay","fj_eventNum","fj_lumiNum",
+    "MET_covXX","MET_covXY","MET_covYY","MET_phi","MET_pt","MET_significance",
+    "PuppiMET_pt", "PuppiMET_phi","fj_eta","fj_phi","fj_MuonEnergyFraction",
+     "fj_ElectronEnergyFraction", "fj_PhotonEnergyFraction", 
+     "fj_ChargedHadronEnergyFraction", "fj_NeutralHadronEnergyFraction", "fj_MuonNum", 
+     "fj_ElectronNum", "fj_PhotonNum"],
+    "!decayType":"fj_decayType"
+}
